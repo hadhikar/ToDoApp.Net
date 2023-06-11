@@ -105,7 +105,8 @@ public class ToDoController : Controller
             _db.SaveChanges();
         }
         // Redirect the user back to the index page.
-        return RedirectToAction("Index", "ToDo");
+        //return RedirectToAction("Index", "ToDo");
+        return Ok();
     }
 
 }
