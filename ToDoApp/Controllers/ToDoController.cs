@@ -106,7 +106,7 @@ public class ToDoController : Controller
         }
         // Redirect the user back to the index page.
         //return RedirectToAction("Index", "ToDo");
-        return Ok();
+        return RedirectToAction("Index", "ToDo");
     }
 
 }
